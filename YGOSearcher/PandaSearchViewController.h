@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 #import "PandaSearchCondition.h"
 
-@interface PandaSearchViewController : UITableViewController <UISearchBarDelegate>
+@interface PandaSearchViewController : UITableViewController <UISearchBarDelegate, UIAlertViewDelegate>
 @end

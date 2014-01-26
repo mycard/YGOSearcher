@@ -18,6 +18,7 @@
     bool isSearching;
     sqlite3 *sql;
     sqlite3_stmt *getName, *getParameter, *query;
+    NSString *old_card_cdb, *new_card_cdb;
 }
 @property (strong, nonatomic) IBOutlet UISearchBar *search;
 @property (strong, nonatomic) IBOutlet UITableView *table;
@@ -63,6 +64,7 @@
     sqlite3_prepare_v2(sql, charForParamter, -1, &getParameter, NULL);
     sqlite3_prepare_v2(sql, charForResearch, -1, &query, NULL);
     
+    [search becomeFirstResponder];
 }
 
 - (void)viewDidUnload
@@ -81,14 +83,43 @@
     NSDate* newTime = [self getModificationTime: file];
     NSDate* oldTime = [self getModificationTime: now];
     if (oldTime >= newTime) return;
-    UIAlertView *window = [[UIAlertView alloc] initWithTitle:@"更新提示" message:@"您的卡片数据库似乎更新了。要更新到本软件中么？" delegate:nil cancelButtonTitle:@"否" otherButtonTitles: nil];
+    UIAlertView *window = [[UIAlertView alloc] initWithTitle:@"更新提示" message:@"您的卡片数据库似乎更新了。要更新到本软件中么？" delegate:self cancelButtonTitle:@"劳资在撸管！" otherButtonTitles: @"是",@"否",nil];
+    old_card_cdb = file;
+    new_card_cdb = now;
     [window show];
 }
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    switch (buttonIndex) {
+        case 0:
+        {
+            NSDictionary *fileAttribute = [[NSFileManager defaultManager] attributesOfItemAtPath:old_card_cdb error:nil];
+            NSDate *origin = [self getModificationTime:new_card_cdb];
+            NSMutableDictionary *new = [NSMutableDictionary dictionaryWithDictionary:fileAttribute];
+            [new setValue:origin forKey:@"NSFileModificationDate"];
+            [[NSFileManager defaultManager] setAttributes:new ofItemAtPath:old_card_cdb error:nil];
+            NSString *message = [NSString stringWithFormat:@"您的数据库已被指定为：\n%@\n祝您撸管愉快！",origin];
+            UIAlertView * dialog = [[UIAlertView alloc] initWithTitle:@"数据库已指定" message:message delegate:nil cancelButtonTitle:@"确定" otherButtonTitles: nil];
+            [dialog show];
+            break;
+        }
+        case 1:
+        {
+            [[NSFileManager defaultManager] copyItemAtPath:old_card_cdb toPath:new_card_cdb error: nil];
+            NSString *message = [NSString stringWithFormat:@"您的数据库已更新。\n本次更新的数据库时间戳为：\n%@\n感谢您的使用！",[self getModificationTime: new_card_cdb]];
+            UIAlertView * dialog = [[UIAlertView alloc] initWithTitle:@"数据库已更新" message:message delegate:nil cancelButtonTitle:@"确定" otherButtonTitles: nil];
+            [dialog show];
+            break;
+        }
+    }
+}
+
 
 - (NSDate *) getModificationTime: (NSString *)file
 {
     NSDictionary *fileAttribute = [[NSFileManager defaultManager] attributesOfItemAtPath:file error:nil];
-    NSDate *origin = fileAttribute[@"NSFileModificationDate"];
+    NSDate *origin = fileAttribute[@"NSFileModificationDate"];\
     return origin;
 }
 

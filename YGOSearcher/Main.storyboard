@@ -152,7 +152,7 @@
                         <viewControllerLayoutGuide type="bottom" id="C09-bo-6ap"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nnX-yP-8gW" customClass="UIControl">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="卡名" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wIe-8E-fVg">
@@ -530,7 +530,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="17"/>
                                 <color key="textColor" white="0.52891885080000001" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="highlightedColor" patternImage="FC5D85F9-2552-4283-BE3F-6348F3CE9AC0" colorSpace="pattern"/>
+                                <color key="highlightedColor" patternImage="1017608E-7409-4E8A-A629-0BD03DE76CF5" colorSpace="pattern"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -1050,10 +1050,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="33.png" width="32" height="32"/>
-        <image name="87.png" width="32" height="32"/>
-        <image name="88.png" width="32" height="32"/>
-        <image name="FC5D85F9-2552-4283-BE3F-6348F3CE9AC0" width="256" height="256">
+        <image name="1017608E-7409-4E8A-A629-0BD03DE76CF5" width="256" height="256">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -5495,6 +5492,9 @@ BA6JAAQOkQAEDp4ABA6jAAQOpQAEDqcABA6sAAQOtAAEDrcABA68AAQOxAAEDscABA7ZAAQO3AAEDuEA
 AAAAAAAEAQAAAAAAAABCAAAAAAAAAAAAAAAAAAQO4w
 </mutableData>
         </image>
+        <image name="33.png" width="32" height="32"/>
+        <image name="87.png" width="32" height="32"/>
+        <image name="88.png" width="32" height="32"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

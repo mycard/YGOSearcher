@@ -69,6 +69,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     cardName.text = condition.key;
+    if ([cardName.text length] > 0) [cardName becomeFirstResponder];
     [cardName reloadInputViews];
     picker.frame = CGRectMake(0, 480, 320, 260);
     self.setting = [[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource: @"Property List" ofType: @"plist"]];
