@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Type</key>
+	<array>
+		<string>卡片</string>
+		<string>怪兽</string>
+		<string>魔法</string>
+		<string>陷阱</string>
+	</array>
+	<key>TypeEx</key>
+	<dict>
+		<key>1000</key>
+		<string>任意</string>
+		<key>New item - 2</key>
+		<string>通常</string>
+		<key>New item - 3</key>
+		<string>效果</string>
+	</dict>
+</dict>
+</plist>

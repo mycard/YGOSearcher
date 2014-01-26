@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA089B901890B5760013D713 /* PandaAdvanceTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA089B8F1890B5760013D713 /* PandaAdvanceTypeViewController.m */; };
+		BA089B931890B5850013D713 /* PandaAdvanceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA089B921890B5850013D713 /* PandaAdvanceDetailViewController.m */; };
+		BA089B961890B59A0013D713 /* PandaAdvanceValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA089B951890B59A0013D713 /* PandaAdvanceValueViewController.m */; };
+		BA089B991890B5A60013D713 /* PandaAdvanceEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA089B981890B5A60013D713 /* PandaAdvanceEffectViewController.m */; };
+		BA35A6401878527200149758 /* Reference.txt in Resources */ = {isa = PBXBuildFile; fileRef = BA35A63F1878527200149758 /* Reference.txt */; };
+		BA4C80701879D523000DD417 /* PandaTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4C806F1879D523000DD417 /* PandaTranslator.m */; };
+		BA514DBE186FC201009730D4 /* cards.cdb in Resources */ = {isa = PBXBuildFile; fileRef = BA514DBD186FC201009730D4 /* cards.cdb */; };
+		BA9467E81893BFB200C9161F /* 88.png in Resources */ = {isa = PBXBuildFile; fileRef = BA9467E51893BFB200C9161F /* 88.png */; };
+		BA9467E91893BFB200C9161F /* 33.png in Resources */ = {isa = PBXBuildFile; fileRef = BA9467E61893BFB200C9161F /* 33.png */; };
+		BA9467EA1893BFB200C9161F /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = BA9467E71893BFB200C9161F /* 87.png */; };
+		BA9467ED1893D63E00C9161F /* PandaNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9467EC1893D63E00C9161F /* PandaNavigationViewController.m */; };
+		BAA7CDDE1893AF6000DA1EE5 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAA7CDDD1893AF6000DA1EE5 /* Entitlements.plist */; };
+		BAA95563187B14A600F12BB0 /* PandaDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA95562187B14A600F12BB0 /* PandaDetailsViewController.m */; };
+		BAA95566187B183F00F12BB0 /* PandaSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA95565187B183F00F12BB0 /* PandaSummaryViewController.m */; };
+		BAA95569187B184B00F12BB0 /* PandaImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA95568187B184B00F12BB0 /* PandaImageViewController.m */; };
+		BAB61045189149D80052D4E1 /* PandaHighSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB61044189149D80052D4E1 /* PandaHighSearchViewController.m */; };
+		BABDF53F188F749600608766 /* PandaAdvancedSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BABDF53E188F749600608766 /* PandaAdvancedSearchViewController.m */; };
+		BABDF548188F89C200608766 /* PandaSearchComboViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BABDF547188F89C200608766 /* PandaSearchComboViewController.m */; };
 		BACA6BE1186EC93F00EF8091 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACA6BE0186EC93F00EF8091 /* Foundation.framework */; };
 		BACA6BE3186EC93F00EF8091 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACA6BE2186EC93F00EF8091 /* CoreGraphics.framework */; };
 		BACA6BE5186EC93F00EF8091 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACA6BE4186EC93F00EF8091 /* UIKit.framework */; };
@@ -19,6 +37,12 @@
 		BACA6BFC186EC93F00EF8091 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACA6BE4186EC93F00EF8091 /* UIKit.framework */; };
 		BACA6C04186EC93F00EF8091 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BACA6C02186EC93F00EF8091 /* InfoPlist.strings */; };
 		BACA6C06186EC93F00EF8091 /* YGOSearcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA6C05186EC93F00EF8091 /* YGOSearcherTests.m */; };
+		BACA6C10186EC9EE00EF8091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BACA6C0F186EC9EE00EF8091 /* Main.storyboard */; };
+		BAEFD9F21872E73000E8A88A /* PandaSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEFD9F11872E73000E8A88A /* PandaSearchViewController.m */; };
+		BAEFD9F71872EE9C00E8A88A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEFD9F61872EE9C00E8A88A /* libsqlite3.dylib */; };
+		BAF6E2A418928BA700044049 /* PandaHighAnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF6E2A318928BA700044049 /* PandaHighAnswerViewController.m */; };
+		BAFD79FD1890082A00EDFC1B /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAFD79FC1890082A00EDFC1B /* Property List.plist */; };
+		BAFD7A001890104100EDFC1B /* PandaSearchCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFD79FF1890104100EDFC1B /* PandaSearchCondition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +56,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA089B8E1890B5760013D713 /* PandaAdvanceTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PandaAdvanceTypeViewController.h; sourceTree = "<group>"; };
+		BA089B8F1890B5760013D713 /* PandaAdvanceTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PandaAdvanceTypeViewController.m; sourceTree = "<group>"; };
+		BA089B911890B5850013D713 /* PandaAdvanceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PandaAdvanceDetailViewController.h; sourceTree = "<group>"; };
+		BA089B921890B5850013D713 /* PandaAdvanceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PandaAdvanceDetailViewController.m; sourceTree = "<group>"; };
+		BA089B941890B59A0013D713 /* PandaAdvanceValueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PandaAdvanceValueViewController.h; sourceTree = "<group>"; };
+		BA089B951890B59A0013D713 /* PandaAdvanceValueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PandaAdvanceValueViewController.m; sourceTree = "<group>"; };
+		BA089B971890B5A60013D713 /* PandaAdvanceEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PandaAdvanceEffectViewController.h; sourceTree = "<group>"; };
+		BA089B981890B5A60013D713 /* PandaAdvanceEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PandaAdvanceEffectViewController.m; sourceTree = "<group>"; };
+		BA35A63F1878527200149758 /* Reference.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Reference.txt; sourceTree = "<group>"; };
+		BA4C806E1879D523000DD417 /* PandaTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PandaTranslator.h; sourceTree = "<group>"; };
+		BA4C806F1879D523000DD417 /* PandaTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PandaTranslator.m; sourceTree = "<group>"; };
+		BA514DBD186FC201009730D4 /* cards.cdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = cards.cdb; sourceTree = "<group>"; };
+		BA9467E51893BFB200C9161F /* 88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 88.png; sourceTree = "<group>"; };
+		BA9467E61893BFB200C9161F /* 33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 33.png; sourceTree = "<group>"; };
+		BA9467E71893BFB200C9161F /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87.png; sourceTree = "<group>"; };
+		BA9467EB1893D63E00C9161F /* PandaNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PandaNavigationViewController.h; sourceTree = "<group>"; };
+		BA9467EC1893D63E00C9161F /* PandaNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PandaNavigationViewController.m; sourceTree = "<group>"; };
+		BAA7CDDD1893AF6000DA1EE5 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		BAA95561187B14A500F12BB0 /* PandaDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PandaDetailsViewController.h; sourceTree = "<group>"; };
+		BAA95562187B14A600F12BB0 /* PandaDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PandaDetailsViewController.m; sourceTree = "<group>"; };
+		BAA95564187B183F00F12BB0 /* PandaSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PandaSummaryViewController.h; sourceTree = "<group>"; };
+		BAA95565187B183F00F12BB0 /* PandaSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PandaSummaryViewController.m; sourceTree = "<group>"; };
+		BAA95567187B184B00F12BB0 /* PandaImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PandaImageViewController.h; sourceTree = "<group>"; };
+		BAA95568187B184B00F12BB0 /* PandaImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PandaImageViewController.m; sourceTree = "<group>"; };
+		BAB61043189149D80052D4E1 /* PandaHighSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PandaHighSearchViewController.h; sourceTree = "<group>"; };
+		BAB61044189149D80052D4E1 /* PandaHighSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PandaHighSearchViewController.m; sourceTree = "<group>"; };
+		BABDF53D188F749600608766 /* PandaAdvancedSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PandaAdvancedSearchViewController.h; sourceTree = "<group>"; };
+		BABDF53E188F749600608766 /* PandaAdvancedSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PandaAdvancedSearchViewController.m; sourceTree = "<group>"; };
+		BABDF546188F89C200608766 /* PandaSearchComboViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PandaSearchComboViewController.h; sourceTree = "<group>"; };
+		BABDF547188F89C200608766 /* PandaSearchComboViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PandaSearchComboViewController.m; sourceTree = "<group>"; };
 		BACA6BDD186EC93F00EF8091 /* YGOSearcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YGOSearcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACA6BE0186EC93F00EF8091 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BACA6BE2186EC93F00EF8091 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +102,15 @@
 		BACA6C01186EC93F00EF8091 /* YGOSearcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YGOSearcherTests-Info.plist"; sourceTree = "<group>"; };
 		BACA6C03186EC93F00EF8091 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BACA6C05186EC93F00EF8091 /* YGOSearcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGOSearcherTests.m; sourceTree = "<group>"; };
+		BACA6C0F186EC9EE00EF8091 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BAEFD9F01872E73000E8A88A /* PandaSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PandaSearchViewController.h; sourceTree = "<group>"; };
+		BAEFD9F11872E73000E8A88A /* PandaSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PandaSearchViewController.m; sourceTree = "<group>"; };
+		BAEFD9F61872EE9C00E8A88A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		BAF6E2A218928BA700044049 /* PandaHighAnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PandaHighAnswerViewController.h; sourceTree = "<group>"; };
+		BAF6E2A318928BA700044049 /* PandaHighAnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PandaHighAnswerViewController.m; sourceTree = "<group>"; };
+		BAFD79FC1890082A00EDFC1B /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		BAFD79FE1890104100EDFC1B /* PandaSearchCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PandaSearchCondition.h; sourceTree = "<group>"; };
+		BAFD79FF1890104100EDFC1B /* PandaSearchCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PandaSearchCondition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAEFD9F71872EE9C00E8A88A /* libsqlite3.dylib in Frameworks */,
 				BACA6BE3186EC93F00EF8091 /* CoreGraphics.framework in Frameworks */,
 				BACA6BE5186EC93F00EF8091 /* UIKit.framework in Frameworks */,
 				BACA6BE1186EC93F00EF8091 /* Foundation.framework in Frameworks */,
@@ -74,6 +138,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA9467D81893B46900C9161F /* Banished */ = {
+			isa = PBXGroup;
+			children = (
+				BA089B8E1890B5760013D713 /* PandaAdvanceTypeViewController.h */,
+				BA089B8F1890B5760013D713 /* PandaAdvanceTypeViewController.m */,
+				BA089B911890B5850013D713 /* PandaAdvanceDetailViewController.h */,
+				BA089B921890B5850013D713 /* PandaAdvanceDetailViewController.m */,
+				BA089B941890B59A0013D713 /* PandaAdvanceValueViewController.h */,
+				BA089B951890B59A0013D713 /* PandaAdvanceValueViewController.m */,
+				BA089B971890B5A60013D713 /* PandaAdvanceEffectViewController.h */,
+				BA089B981890B5A60013D713 /* PandaAdvanceEffectViewController.m */,
+				BABDF53D188F749600608766 /* PandaAdvancedSearchViewController.h */,
+				BABDF53E188F749600608766 /* PandaAdvancedSearchViewController.m */,
+				BABDF546188F89C200608766 /* PandaSearchComboViewController.h */,
+				BABDF547188F89C200608766 /* PandaSearchComboViewController.m */,
+			);
+			name = Banished;
+			sourceTree = "<group>";
+		};
 		BACA6BD4186EC93E00EF8091 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +179,7 @@
 		BACA6BDF186EC93F00EF8091 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BAEFD9F61872EE9C00E8A88A /* libsqlite3.dylib */,
 				BACA6BE0186EC93F00EF8091 /* Foundation.framework */,
 				BACA6BE2186EC93F00EF8091 /* CoreGraphics.framework */,
 				BACA6BE4186EC93F00EF8091 /* UIKit.framework */,
@@ -107,10 +191,31 @@
 		BACA6BE6186EC93F00EF8091 /* YGOSearcher */ = {
 			isa = PBXGroup;
 			children = (
+				BA9467EB1893D63E00C9161F /* PandaNavigationViewController.h */,
+				BA9467EC1893D63E00C9161F /* PandaNavigationViewController.m */,
+				BA9467D81893B46900C9161F /* Banished */,
 				BACA6BEF186EC93F00EF8091 /* PandaAppDelegate.h */,
 				BACA6BF0186EC93F00EF8091 /* PandaAppDelegate.m */,
-				BACA6BF2186EC93F00EF8091 /* Images.xcassets */,
+				BACA6C0F186EC9EE00EF8091 /* Main.storyboard */,
+				BAA95564187B183F00F12BB0 /* PandaSummaryViewController.h */,
+				BAA95565187B183F00F12BB0 /* PandaSummaryViewController.m */,
+				BAA95567187B184B00F12BB0 /* PandaImageViewController.h */,
+				BAA95568187B184B00F12BB0 /* PandaImageViewController.m */,
+				BAA95561187B14A500F12BB0 /* PandaDetailsViewController.h */,
+				BAA95562187B14A600F12BB0 /* PandaDetailsViewController.m */,
+				BAEFD9F01872E73000E8A88A /* PandaSearchViewController.h */,
+				BAEFD9F11872E73000E8A88A /* PandaSearchViewController.m */,
+				BAB61043189149D80052D4E1 /* PandaHighSearchViewController.h */,
+				BAB61044189149D80052D4E1 /* PandaHighSearchViewController.m */,
+				BAF6E2A218928BA700044049 /* PandaHighAnswerViewController.h */,
+				BAF6E2A318928BA700044049 /* PandaHighAnswerViewController.m */,
 				BACA6BE7186EC93F00EF8091 /* Supporting Files */,
+				BAFD79FE1890104100EDFC1B /* PandaSearchCondition.h */,
+				BAFD79FF1890104100EDFC1B /* PandaSearchCondition.m */,
+				BA4C806E1879D523000DD417 /* PandaTranslator.h */,
+				BA4C806F1879D523000DD417 /* PandaTranslator.m */,
+				BACA6BF2186EC93F00EF8091 /* Images.xcassets */,
+				BAA7CDDD1893AF6000DA1EE5 /* Entitlements.plist */,
 			);
 			path = YGOSearcher;
 			sourceTree = "<group>";
@@ -118,10 +223,16 @@
 		BACA6BE7186EC93F00EF8091 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BA9467E51893BFB200C9161F /* 88.png */,
+				BA9467E61893BFB200C9161F /* 33.png */,
+				BA9467E71893BFB200C9161F /* 87.png */,
+				BA514DBD186FC201009730D4 /* cards.cdb */,
 				BACA6BE8186EC93F00EF8091 /* YGOSearcher-Info.plist */,
 				BACA6BE9186EC93F00EF8091 /* InfoPlist.strings */,
+				BA35A63F1878527200149758 /* Reference.txt */,
 				BACA6BEC186EC93F00EF8091 /* main.m */,
 				BACA6BEE186EC93F00EF8091 /* YGOSearcher-Prefix.pch */,
+				BAFD79FC1890082A00EDFC1B /* Property List.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -154,6 +265,7 @@
 				BACA6BD9186EC93E00EF8091 /* Sources */,
 				BACA6BDA186EC93E00EF8091 /* Frameworks */,
 				BACA6BDB186EC93E00EF8091 /* Resources */,
+				BA14684E1880488A00DD35F3 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -220,6 +332,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9467EA1893BFB200C9161F /* 87.png in Resources */,
+				BAFD79FD1890082A00EDFC1B /* Property List.plist in Resources */,
+				BA9467E91893BFB200C9161F /* 33.png in Resources */,
+				BA9467E81893BFB200C9161F /* 88.png in Resources */,
+				BACA6C10186EC9EE00EF8091 /* Main.storyboard in Resources */,
+				BA514DBE186FC201009730D4 /* cards.cdb in Resources */,
+				BA35A6401878527200149758 /* Reference.txt in Resources */,
+				BAA7CDDE1893AF6000DA1EE5 /* Entitlements.plist in Resources */,
 				BACA6BEB186EC93F00EF8091 /* InfoPlist.strings in Resources */,
 				BACA6BF3186EC93F00EF8091 /* Images.xcassets in Resources */,
 			);
@@ -235,13 +355,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BA14684E1880488A00DD35F3 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export\nCODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\n\nif [ \"${PLATFORM_NAME}\" ==\"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\"]; then\n\n/Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\n\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\n\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BACA6BD9186EC93E00EF8091 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAFD7A001890104100EDFC1B /* PandaSearchCondition.m in Sources */,
+				BA4C80701879D523000DD417 /* PandaTranslator.m in Sources */,
+				BA089B901890B5760013D713 /* PandaAdvanceTypeViewController.m in Sources */,
+				BAA95566187B183F00F12BB0 /* PandaSummaryViewController.m in Sources */,
 				BACA6BED186EC93F00EF8091 /* main.m in Sources */,
+				BAA95569187B184B00F12BB0 /* PandaImageViewController.m in Sources */,
 				BACA6BF1186EC93F00EF8091 /* PandaAppDelegate.m in Sources */,
+				BA089B991890B5A60013D713 /* PandaAdvanceEffectViewController.m in Sources */,
+				BAB61045189149D80052D4E1 /* PandaHighSearchViewController.m in Sources */,
+				BA089B961890B59A0013D713 /* PandaAdvanceValueViewController.m in Sources */,
+				BABDF548188F89C200608766 /* PandaSearchComboViewController.m in Sources */,
+				BABDF53F188F749600608766 /* PandaAdvancedSearchViewController.m in Sources */,
+				BA9467ED1893D63E00C9161F /* PandaNavigationViewController.m in Sources */,
+				BA089B931890B5850013D713 /* PandaAdvanceDetailViewController.m in Sources */,
+				BAF6E2A418928BA700044049 /* PandaHighAnswerViewController.m in Sources */,
+				BAA95563187B14A600F12BB0 /* PandaDetailsViewController.m in Sources */,
+				BAEFD9F21872E73000E8A88A /* PandaSearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -349,7 +501,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -360,9 +512,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = YGOSearcher/Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YGOSearcher/YGOSearcher-Prefix.pch";
 				INFOPLIST_FILE = "YGOSearcher/YGOSearcher-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -373,9 +528,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = YGOSearcher/Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YGOSearcher/YGOSearcher-Prefix.pch";
 				INFOPLIST_FILE = "YGOSearcher/YGOSearcher-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -442,6 +600,7 @@
 				BACA6C0B186EC93F00EF8091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BACA6C0C186EC93F00EF8091 /* Build configuration list for PBXNativeTarget "YGOSearcherTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +609,7 @@
 				BACA6C0E186EC93F00EF8091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
